@@ -93,7 +93,7 @@ class StudentControllerTest {
         when(studentService.findNbrStudentByYear()).thenReturn(Arrays.asList());
 
         // Appeler le contrôleur pour récupérer la liste d'étudiants par année
-        ResponseEntity<Collection<?>> response = studentController.findByYear();
+        ResponseEntity<Collection<Object[]>> response = studentController.findByYear();
 
         // Vérifier que la collection retournée est vide
         assertEquals(0, response.getBody().size());
