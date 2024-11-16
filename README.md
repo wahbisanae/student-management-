@@ -18,10 +18,6 @@ Ce projet est une application de **gestion des étudiants** développée avec **
 - **MySQL** comme base de données relationnelle.
 - **JUnit 5** et **Mockito** pour les tests unitaires.
 
-## Prérequis
-1. **Java** installé sur votre machine.
-2. **Maven** installé pour la gestion du projet.
-3. Une instance de **MySQL** pour la base de données.
 
 ## video
 https://github.com/user-attachments/assets/91ee9002-af22-4ad4-92f4-3895051675f9
